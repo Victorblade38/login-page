@@ -1,0 +1,81 @@
+:root{
+    --green1:#16423C;
+    --green2:#6A9C89;
+    --green3:#C4DAD2;
+    --green4:#E9EFEC;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif
+}
+
+body{
+    height: 100vh;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login , .signup {
+    width: 300px;
+    background-color: var(--green3);
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.login h1 , .signup h1{
+    text-align: center;
+    color: var(--green1);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.name {
+    display:flex;
+    flex-direction: row;
+    gap: 10px;
+
+    input{
+        width: 50%;
+    }
+}
+
+input, button{
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+}
+
+input{
+    color: #16423C;
+    border: none;
+    font-weight: bold;
+}
+
+button{
+    background-color: var(--green1);
+    color: var(--green4);
+    font-size: 14px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+p{
+    color: var(--green1);
+    text-align: center;
+    font-weight: bold;
+}
+
+a{
+    color:blueviolet
+}
